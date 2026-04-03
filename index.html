@@ -17,18 +17,18 @@
 				defaultOpts : {
 					url : 'php/connector.minimal.php', // or connector.maximal.php : connector URL (REQUIRED)
 					themes : {
-                        'dark-slim'     : 'https://nao-pon.github.io/elfinder-theme-manifests/dark-slim.json',
-                        'material'      : 'https://nao-pon.github.io/elfinder-theme-manifests/material-default.json',
-                        'material-gray' : 'https://nao-pon.github.io/elfinder-theme-manifests/material-gray.json',
-                        'material-light': 'https://nao-pon.github.io/elfinder-theme-manifests/material-light.json',
-                        'bootstrap'     : 'https://nao-pon.github.io/elfinder-theme-manifests/bootstrap.json',
-                        'moono'         : 'https://nao-pon.github.io/elfinder-theme-manifests/moono.json',
-                        'win10'         : 'https://nao-pon.github.io/elfinder-theme-manifests/win10.json'
+						'default' : {
+							'name': 'default',
+							'cssurls': 'css/theme.css',
+							'author': 'elFinder Project',
+							'license': '3-clauses BSD'
+						},
+						'nord-dark': 'css/nord-dark.json'
                     },
-                    defaultView : "list",
+					theme : 'default',
+					defaultView : "list",
                     rememberLastDir : "true",
-                    useBrowserHistory : "true",
-                    theme : 'dark-slim',
+                    usebrowserhistory : "true",
 					commandsOptions : {
 						edit : {
 							extraOptions : {

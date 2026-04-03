@@ -1,0 +1,10 @@
+{
+  "name": "Nord Dark",
+  "author": "Local Custom",
+  "license": "MIT",
+  "description": "Nord-inspired dark theme",
+  "cssurls": [
+    "theme.css",
+    "nord-dark.css"
+  ]
+}

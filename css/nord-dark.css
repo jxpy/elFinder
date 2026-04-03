@@ -1,0 +1,124 @@
+/* Nord-inspired overrides layered on top of css/theme.css */
+
+.elfinder,
+.std42-dialog,
+.std42-dialog .ui-widget-content,
+.elfinder .elfinder-workzone,
+.elfinder .elfinder-cwd-wrapper,
+.elfinder .elfinder-cwd,
+.elfinder .elfinder-cwd table,
+.elfinder .elfinder-place,
+.elfinder .elfinder-tree,
+.elfinder .elfinder-path {
+    background-color: #292a3a;
+    color: #c8cad6;
+}
+
+.elfinder input,
+.elfinder textarea,
+.elfinder select,
+.elfinder .ui-widget-content,
+.elfinder .ui-widget-header,
+.elfinder .elfinder-dialog,
+.elfinder .elfinder-button-menu,
+.elfinder .elfinder-contextmenu {
+    background-color: #2f3143;
+    border-color: #44475a;
+    color: #c8cad6;
+}
+
+.elfinder .elfinder-navbar,
+.elfinder .elfinder-toolbar,
+.elfinder .elfinder-statusbar,
+.elfinder .elfinder-path,
+.elfinder .elfinder-cwd table thead td,
+.std42-dialog .ui-dialog-titlebar {
+    background: #1f2130;
+    border-color: #3b3e52;
+    color: #c8cad6;
+}
+
+/* Remove light striped rows from the default theme in list view */
+.elfinder .elfinder-cwd table tr,
+.elfinder .elfinder-cwd table tr:nth-child(odd),
+.elfinder .elfinder-cwd table tr:nth-child(even) {
+    background-color: #292a3a;
+    border-top-color: #333548;
+    color: #c8cad6;
+}
+
+.elfinder .elfinder-cwd table thead td.ui-state-hover,
+.elfinder .elfinder-cwd table td.ui-state-hover,
+.elfinder .ui-state-hover,
+.elfinder .elfinder-button:hover,
+.elfinder .elfinder-button-menu .ui-state-hover,
+.elfinder .elfinder-contextmenu .ui-state-hover {
+    background: #3a3d51;
+    border-color: #5a5f78;
+    color: #eceef8;
+}
+
+.elfinder .ui-state-active,
+.elfinder .elfinder-button.ui-state-active,
+.elfinder .elfinder-cwd-view-icons .elfinder-cwd-file .ui-state-active,
+.elfinder .elfinder-cwd-view-icons .elfinder-cwd-file .ui-state-hover,
+.elfinder .elfinder-cwd table tr.ui-state-active,
+.elfinder .elfinder-cwd table tr.ui-state-active td,
+.elfinder .elfinder-contextmenu .ui-state-active,
+.elfinder .elfinder-navbar .ui-state-active {
+    background: #0a84c1;
+    border-color: #23a3d8;
+    color: #f4f7ff;
+}
+
+.elfinder .elfinder-navbar .ui-state-default,
+.elfinder .elfinder-statusbar,
+.elfinder .elfinder-statusbar a,
+.elfinder .elfinder-path,
+.elfinder .elfinder-cwd .elfinder-cwd-file,
+.elfinder .elfinder-cwd .elfinder-cwd-filename,
+.elfinder .elfinder-tree .ui-state-default {
+    color: #c8cad6;
+}
+
+.elfinder .elfinder-cwd-icon:before,
+.elfinder .elfinder-cwd-icon-text:before,
+.elfinder .elfinder-cwd-icon-image:before,
+.elfinder .elfinder-cwd-icon-audio:before,
+.elfinder .elfinder-cwd-icon-video:before {
+    box-shadow: inset 0 0 0 1px rgba(244, 247, 255, 0.12);
+}
+
+.elfinder .elfinder-notify,
+.elfinder .elfinder-toast,
+.elfinder .ui-widget-content.elfinder-ui-tooltip {
+    background-color: #2f3143;
+    border-color: #44475a;
+    color: #d7d9e5;
+}
+
+.elfinder .elfinder-button-icon,
+.elfinder .ui-icon {
+    filter: brightness(0.95) contrast(1.05);
+}
+
+.elfinder:not(.elfinder-mobile) *::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(31, 33, 48, 0.9);
+}
+
+.elfinder:not(.elfinder-mobile) *::-webkit-scrollbar-thumb {
+    background-color: rgba(125, 131, 158, 0.45);
+    box-shadow: 0 0 0 1px rgba(215, 217, 229, 0.08);
+}
+
+.elfinder:not(.elfinder-mobile) *::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(150, 157, 189, 0.6);
+}
+
+.elfinder .elfinder-quicklook,
+.elfinder .elfinder-quicklook-preview,
+.elfinder .elfinder-quicklook-info-wrapper,
+.elfinder .elfinder-quicklook-title {
+    background-color: #242637;
+    color: #d7d9e5;
+}
