@@ -10,21 +10,55 @@
 .elfinder .elfinder-place,
 .elfinder .elfinder-tree,
 .elfinder .elfinder-path {
-    background-color: #292a3a;
-    color: #c8cad6;
+    background-color: #2b2a33;
+    color: #cfd2dc;
 }
 
 .elfinder input,
 .elfinder textarea,
 .elfinder select,
+.elfinder .ui-widget.ui-widget-content,
 .elfinder .ui-widget-content,
 .elfinder .ui-widget-header,
 .elfinder .elfinder-dialog,
 .elfinder .elfinder-button-menu,
 .elfinder .elfinder-contextmenu {
-    background-color: #2f3143;
-    border-color: #44475a;
-    color: #c8cad6;
+    background-color: #302f3d;
+    border-color: #454554;
+    color: #cfd2dc;
+}
+
+.elfinder .ui-widget.ui-widget-content,
+.elfinder.ui-widget.ui-widget-content,
+.std42-dialog.ui-widget.ui-widget-content,
+.ui-dialog.std42-dialog.ui-widget.ui-widget-content,
+.std42-dialog .ui-widget.ui-widget-content,
+.elfinder-preference.ui-widget.ui-widget-content,
+.elfinder-help.ui-widget.ui-widget-content {
+    border-color: #525252 !important;
+}
+
+.elfinder .ui-state-default,
+.elfinder .ui-widget-content .ui-state-default,
+.elfinder .ui-widget-header .ui-state-default,
+.elfinder .ui-button,
+.std42-dialog .ui-state-default,
+.std42-dialog .ui-widget-content .ui-state-default,
+.std42-dialog .ui-widget-header .ui-state-default,
+.std42-dialog .ui-button {
+    background: #2f2e39;
+    background-image: none;
+    border-color: #454554 !important;
+    color: #cfd2dc;
+}
+
+.elfinder .ui-state-default a,
+.elfinder .ui-state-default a:link,
+.elfinder .ui-state-default a:visited,
+.std42-dialog .ui-state-default a,
+.std42-dialog .ui-state-default a:link,
+.std42-dialog .ui-state-default a:visited {
+    color: #cfd2dc;
 }
 
 .elfinder .elfinder-navbar,
@@ -33,18 +67,91 @@
 .elfinder .elfinder-path,
 .elfinder .elfinder-cwd table thead td,
 .std42-dialog .ui-dialog-titlebar {
-    background: #1f2130;
-    border-color: #3b3e52;
-    color: #c8cad6;
+    background: #1c1b22;
+    border-color: #373747;
+    color: #cfd2dc;
+}
+
+.std42-dialog .ui-tabs {
+    background: #2b2a33;
+    border-color: #373747;
+}
+
+.std42-dialog .ui-tabs .ui-tabs-nav {
+    background: #1c1b22;
+    border-color: #373747;
+}
+
+.std42-dialog .ui-tabs .ui-tabs-nav li {
+    background: #2f2e39;
+    border-color: #454554;
+}
+
+.std42-dialog .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    color: #cfd2dc;
+}
+
+.std42-dialog .ui-tabs .ui-tabs-nav li.ui-state-hover,
+.std42-dialog .ui-tabs .ui-tabs-nav li.ui-state-focus {
+    background: #3b3948;
+    border-color: #5a5869;
+}
+
+.std42-dialog .ui-tabs .ui-tabs-nav li.ui-tabs-active,
+.std42-dialog .ui-tabs .ui-tabs-nav li.ui-state-active {
+    background: #5b5c6f;
+    border-color: #737387;
+}
+
+.std42-dialog .ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor,
+.std42-dialog .ui-tabs .ui-tabs-nav li.ui-state-active .ui-tabs-anchor {
+    color: #f5f6fb;
+}
+
+.std42-dialog .ui-tabs .ui-tabs-panel {
+    background: #2b2a33;
+    color: #cfd2dc;
+}
+
+.elfinder .elfinder-toolbar .ui-state-default,
+.elfinder .elfinder-toolbar .ui-widget-content,
+.elfinder .elfinder-toolbar .ui-widget-header,
+.elfinder .elfinder-button,
+div.elfinder-cwd-wrapper-list tr.ui-state-default,
+div.elfinder-cwd-wrapper-list tr.ui-state-default td,
+div.elfinder-cwd-wrapper-list tr.ui-state-default td.ui-state-active,
+div.elfinder-cwd-wrapper-list tr.ui-state-default td.ui-state-hover,
+.elfinder .elfinder-cwd table thead td,
+.elfinder .elfinder-cwd table thead td.ui-state-default,
+.elfinder .elfinder-cwd table thead td.ui-state-active,
+.elfinder .elfinder-cwd table thead td.ui-state-hover {
+    background: #1c1b22;
+    background-image: none;
+    border-color: #373747;
+    color: #cfd2dc;
+    box-shadow: none;
+}
+
+.elfinder .elfinder-cwd table thead td {
+    border-bottom-color: #4a4a5c;
+}
+
+.elfinder .elfinder-cwd.elfinder-table-header-sticky table {
+    border-top-color: #4a4a5c;
+}
+
+.elfinder .elfinder-cwd table thead td span,
+div.elfinder-cwd-wrapper-list tr.ui-state-default td span {
+    color: #cfd2dc;
 }
 
 /* Remove light striped rows from the default theme in list view */
 .elfinder .elfinder-cwd table tr,
 .elfinder .elfinder-cwd table tr:nth-child(odd),
 .elfinder .elfinder-cwd table tr:nth-child(even) {
-    background-color: #292a3a;
-    border-top-color: #333548;
-    color: #c8cad6;
+    background-color: #2b2a36;
+    border-top-color: #343342;
+    color: #cfd2dc;
 }
 
 .elfinder .elfinder-cwd table thead td.ui-state-hover,
@@ -53,9 +160,23 @@
 .elfinder .elfinder-button:hover,
 .elfinder .elfinder-button-menu .ui-state-hover,
 .elfinder .elfinder-contextmenu .ui-state-hover {
-    background: #3a3d51;
-    border-color: #5a5f78;
-    color: #eceef8;
+    background: #3b3948;
+    border-color: #5a5869;
+    color: #f0f2f8;
+}
+
+/* Subtle file hover highlight (unselected), matching tree hover direction */
+.elfinder .elfinder-cwd-view-icons .elfinder-cwd-file.ui-state-hover:not(.ui-selected) .elfinder-cwd-file-wrapper,
+.elfinder .elfinder-cwd-view-icons .elfinder-cwd-file.ui-state-hover:not(.ui-selected) .elfinder-cwd-filename {
+    background: rgba(59, 57, 72, 0.55);
+    border-color: #5a5869;
+    color: #e5e8f1;
+}
+
+.elfinder .elfinder-cwd table tr.elfinder-cwd-file.ui-state-hover:not(.ui-selected) td {
+    background: rgba(59, 57, 72, 0.55);
+    border-top-color: #4a4a5c;
+    color: #e5e8f1;
 }
 
 .elfinder .ui-state-active,
@@ -66,9 +187,37 @@
 .elfinder .elfinder-cwd table tr.ui-state-active td,
 .elfinder .elfinder-contextmenu .ui-state-active,
 .elfinder .elfinder-navbar .ui-state-active {
-    background: #0a84c1;
-    border-color: #23a3d8;
-    color: #f4f7ff;
+    background: #5b5c6f;
+    border-color: #737387;
+    color: #f5f6fb;
+}
+
+/* Selected file highlight: match directory tree active style */
+.elfinder .elfinder-cwd-view-icons .elfinder-cwd-file.ui-selected .elfinder-cwd-file-wrapper,
+.elfinder .elfinder-cwd-view-icons .elfinder-cwd-file.ui-selected .elfinder-cwd-filename {
+    background: #5b5c6f;
+    border-color: #737387;
+    color: #f5f6fb;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 1px rgba(210, 214, 228, 0.22);
+}
+
+.elfinder .elfinder-cwd table tr.elfinder-cwd-file.ui-selected td,
+.elfinder .elfinder-cwd table tr.elfinder-cwd-file.ui-selected td.ui-state-hover {
+    background: #5b5c6f;
+    border-top-color: #737387;
+    color: #f5f6fb;
+    box-shadow: inset 0 1px 0 rgba(210, 214, 228, 0.16), inset 0 -1px 0 rgba(210, 214, 228, 0.16);
+}
+
+.elfinder .elfinder-cwd table tr.elfinder-cwd-file.ui-selected td:first-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.elfinder .elfinder-cwd table tr.elfinder-cwd-file.ui-selected td:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
 }
 
 .elfinder .elfinder-navbar .ui-state-default,
@@ -78,7 +227,7 @@
 .elfinder .elfinder-cwd .elfinder-cwd-file,
 .elfinder .elfinder-cwd .elfinder-cwd-filename,
 .elfinder .elfinder-tree .ui-state-default {
-    color: #c8cad6;
+    color: #cfd2dc;
 }
 
 .elfinder .elfinder-cwd-icon:before,
@@ -86,39 +235,61 @@
 .elfinder .elfinder-cwd-icon-image:before,
 .elfinder .elfinder-cwd-icon-audio:before,
 .elfinder .elfinder-cwd-icon-video:before {
-    box-shadow: inset 0 0 0 1px rgba(244, 247, 255, 0.12);
+    box-shadow: inset 0 0 0 1px rgba(245, 246, 251, 0.12);
 }
 
 .elfinder .elfinder-notify,
 .elfinder .elfinder-toast,
 .elfinder .ui-widget-content.elfinder-ui-tooltip {
-    background-color: #2f3143;
-    border-color: #44475a;
-    color: #d7d9e5;
+    background-color: #302f3d;
+    border-color: #454554;
+    color: #d7dae3;
 }
 
 .elfinder .elfinder-button-icon,
-.elfinder .ui-icon {
-    filter: brightness(0.95) contrast(1.05);
+.elfinder .elfinder-navbar-icon,
+.elfinder .elfinder-lock,
+.elfinder .elfinder-perms,
+.elfinder .elfinder-symlink,
+.elfinder .elfinder-contextmenu-icon {
+    filter: none;
+}
+
+.elfinder .elfinder-toolbar .ui-icon,
+.elfinder .elfinder-cwd table thead .ui-icon,
+.elfinder .ui-dialog-titlebar .ui-icon {
+    filter: grayscale(1) brightness(1.35);
+    opacity: 0.75;
+}
+
+.elfinder .elfinder-button-search .ui-icon,
+.std42-dialog .elfinder-button-search .ui-icon {
+    filter: grayscale(1) brightness(2.1) contrast(1.15);
+    opacity: 0.98;
+}
+
+.elfinder .elfinder-button-search .ui-icon:hover,
+.elfinder .elfinder-button-search .ui-icon:focus {
+    filter: grayscale(1) brightness(2.3) contrast(1.2);
 }
 
 .elfinder:not(.elfinder-mobile) *::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 6px rgba(31, 33, 48, 0.9);
+    box-shadow: inset 0 0 6px rgba(28, 27, 38, 0.9);
 }
 
 .elfinder:not(.elfinder-mobile) *::-webkit-scrollbar-thumb {
-    background-color: rgba(125, 131, 158, 0.45);
-    box-shadow: 0 0 0 1px rgba(215, 217, 229, 0.08);
+    background-color: rgba(118, 120, 140, 0.45);
+    box-shadow: 0 0 0 1px rgba(215, 218, 227, 0.08);
 }
 
 .elfinder:not(.elfinder-mobile) *::-webkit-scrollbar-thumb:hover {
-    background-color: rgba(150, 157, 189, 0.6);
+    background-color: rgba(147, 150, 173, 0.58);
 }
 
 .elfinder .elfinder-quicklook,
 .elfinder .elfinder-quicklook-preview,
 .elfinder .elfinder-quicklook-info-wrapper,
 .elfinder .elfinder-quicklook-title {
-    background-color: #242637;
-    color: #d7d9e5;
+    background-color: #262532;
+    color: #d7dae3;
 }
