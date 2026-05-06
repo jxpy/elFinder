@@ -1,0 +1,14 @@
+Options -Indexes
+
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+AuthUserFile /web/htdocs/www.aggin.com/home/elfin/.htpasswd
+AuthName "Private"
+AuthType Basic
+Require valid-user
+
+<FilesMatch "^\.ht">
+    Require all denied
+</FilesMatch>
